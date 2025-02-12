@@ -28,7 +28,10 @@ public class LivingThing {
     }
     public String getName(){
         return name;
-    }    
+    }
+    public int getAttack() {
+        return attack;
+    }
     public void attack(LivingThing opponent){
         if (dead){
             System.out.println(name + "は死亡しているため、攻撃できない！");
